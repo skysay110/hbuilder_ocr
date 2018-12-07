@@ -1,0 +1,221 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "H5B60C1B1",
+  "name": "速贷通服务平台",
+  "version": {
+    "name": "1.0",
+    "code": ""
+  },
+  "description": "",
+  "icons": {
+    "72": "icon.png"
+  },
+  "launch_path": "index.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Cache": {
+      "description": "管理应用缓存"
+    },
+    "Console": {
+      "description": "跟踪调试输出日志"
+    },
+    "Contacts": {
+      "description": "访问系统联系人信息"
+    },
+    "Events": {
+      "description": "应用扩展事件"
+    },
+    "Maps": {
+      "description": "管理地图插件"
+    }
+  },
+  "plus": {
+    "splashscreen": {
+      "autoclose": false,
+      "waiting": true,
+      "delay": 1
+    },
+    "statusbar": {
+      "immersed": true
+    },
+    "popGesture": "close",
+    "runmode": "normal",
+    "signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",
+    "distribute": {
+      "apple": {
+        "appid": "",
+        "mobileprovision": "",
+        "password": "",
+        "p12": "",
+        "devices": "universal",
+        "frameworks": [
+        ]
+      },
+      "google": {
+        "packagename": "com.rtaksoft.sdt",
+        "keystore": "",
+        "password": "123456",
+        "aliasname": "key0",
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>"
+        ]
+      },
+      "orientation": [
+        "portrait-primary"
+      ],
+      "icons": {
+        "ios": {
+          "prerendered": true,
+          "auto": "",
+          "iphone": {
+            "normal": "",
+            "retina": "",
+            "retina7": "",
+            "retina8": "",
+            "spotlight-normal": "",
+            "spotlight-retina": "",
+            "spotlight-retina7": "",
+            "settings-normal": "",
+            "settings-retina": "",
+            "settings-retina8": ""
+          },
+          "ipad": {
+            "normal": "",
+            "retina": "",
+            "normal7": "",
+            "retina7": "",
+            "spotlight-normal": "",
+            "spotlight-retina": "",
+            "spotlight-normal7": "",
+            "spotlight-retina7": "",
+            "settings-normal": "",
+            "settings-retina": ""
+          }
+        },
+        "android": {
+          "mdpi": "",
+          "ldpi": "",
+          "hdpi": "",
+          "xhdpi": "",
+          "xxhdpi": ""
+        }
+      },
+      "splashscreen": {
+        "ios": {
+          "iphone": {
+            "default": "",
+            "retina35": "",
+            "retina40": "",
+            "retina47": "",
+            "retina55": "",
+            "retina55l": ""
+          },
+          "ipad": {
+            "portrait": "",
+            "portrait-retina": "",
+            "landscape": "",
+            "landscape-retina": "",
+            "portrait7": "",
+            "portrait-retina7": "",
+            "landscape7": "",
+            "landscape-retina7": ""
+          }
+        },
+        "android": {
+          "mdpi": "",
+          "ldpi": "",
+          "hdpi": "",
+          "xhdpi": "",
+          "xxhdpi": ""
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "pages": {
+      "index.html": {
+        "href": "index.html",
+        "priority": 0,
+        "resources": [
+          "favicon.ico",
+          "static/css/app.eb9f9d4f.css",
+          "static/css/chunk-039c09b2.7ffac96a.css",
+          "static/css/chunk-059f1562.fbd42659.css",
+          "static/css/chunk-0a257f0e.0e433876.css",
+          "static/css/chunk-0a90d2c6.f87f33ef.css",
+          "static/css/chunk-1b123ea8.2c13db5c.css",
+          "static/css/chunk-2fcdb85b.4e9df60f.css",
+          "static/css/chunk-34018f6d.564904e4.css",
+          "static/css/chunk-5d700dbd.db66fbd5.css",
+          "static/css/chunk-9e6d1386.0e433876.css",
+          "static/css/chunk-f5b3f2d6.2ab5b6b7.css",
+          "static/css/chunk-vendors.e82a686e.css",
+          "static/fonts/MaterialIcons-Regular.012cf6a1.woff",
+          "static/fonts/MaterialIcons-Regular.570eb838.woff2",
+          "static/fonts/MaterialIcons-Regular.a37b0c01.ttf",
+          "static/fonts/MaterialIcons-Regular.e79bfd88.eot",
+          "static/fonts/iconfont.34d11935.ttf",
+          "static/fonts/iconfont.f011c642.eot",
+          "static/img/avatar.1ee13a5c.png",
+          "static/img/iconfont.bcf61ede.svg",
+          "static/js/app.ddf23f76.js",
+          "static/js/chunk-039c09b2.a5c24920.js",
+          "static/js/chunk-059f1562.96930194.js",
+          "static/js/chunk-0a257f0e.10c1222a.js",
+          "static/js/chunk-0a90d2c6.e9614901.js",
+          "static/js/chunk-1b123ea8.90a3b0d5.js",
+          "static/js/chunk-2fcdb85b.07b665da.js",
+          "static/js/chunk-34018f6d.01e2a27d.js",
+          "static/js/chunk-5d700dbd.9e0c8535.js",
+          "static/js/chunk-9e6d1386.95829f69.js",
+          "static/js/chunk-f5b3f2d6.0e98ef00.js",
+          "static/js/chunk-vendors.3ad979a3.js"
+        ],
+        "refer": []
+      },
+      "redirection.html": {
+        "priority": 0,
+        "resources": [
+          "static/anim/dino_dance.js",
+          "static/images/baseline_arrow_back_white_18dp.png",
+          "static/js/common.js",
+          "static/js/lottie.js",
+          "static/js/muse-ui.js",
+          "static/css/material-icons.css",
+          "static/css/muse-ui.css"
+        ],
+        "refer": []
+      }
+    },
+    "idle": {
+      "resources": []
+    }
+  }
+}

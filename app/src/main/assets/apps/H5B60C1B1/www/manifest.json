@@ -1,0 +1,56 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "H5B60C1B1",
+  "name": "速贷通服务平台",
+  "version": {
+    "name": "1.0",
+    "code": ""
+  },
+  "description": "",
+  "icons": {
+    "72": "icon.png"
+  },
+  "launch_path": "std/index.html",
+  "developer": {
+    "name": "471334603@qq.com",
+    "email": "471334603@qq.com",
+    "url": ""
+  },
+  "permissions": {
+    "Cache": {
+      "description": "管理应用缓存"
+    },
+    "Console": {
+      "description": "跟踪调试输出日志"
+    },
+    "Contacts": {
+      "description": "访问系统联系人信息"
+    },
+    "Events": {
+      "description": "应用扩展事件"
+    },
+    "Maps": {
+      "description": "管理地图插件"
+    },
+    "OCR": {
+      "description": "识别身份证"
+    }
+  },
+  "plus": {
+    "splashscreen": {
+      "autoclose": false,
+      "waiting": false,
+      "delay": 1
+    },
+    "statusbar": {
+      "immersed": true
+    },
+    "popGesture": "close",
+    "runmode": "normal",
+    "signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw=="
+  }
+}
